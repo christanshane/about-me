@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link  href="{% static 'about/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'about/css/heroic-features.css' %}" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <span class="navbar-brand">
+            Gallery
+            </span>
+            <a href="/" class="btn btn-outline-primary my-2 my-sm-0">
+                <span style="color:white;">About me</span>
+            </a>
+        </div>
+    </nav>
+{% block content %}
+{% endblock %}
+</body>
+</html>

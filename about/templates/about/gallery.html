@@ -1,0 +1,44 @@
+{% extends 'about/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<br>
+<main role="main">
+    <div class="album text-muted">
+        <div class="container">
+
+          <div class="row">
+            <div class="card col-md-4">
+              <img src="{% static 'about/images/image1.jpg' %}" class="card-img-top img-fluid" data-src="holder.js/100px280?theme=thumb" alt="Card image cap" >
+              <p class="card-text">Don Salvador, Nursery</p>
+            </div>
+            <div class="card col-md-4">
+              <img src="{% static 'about/images/image2.jpg' %}" class="card-img-top img-fluid" data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
+              <p class="card-text">TinkerTech Office, Bacolod</p>
+            </div>
+            <div class="card col-md-4">
+              <img src="{% static 'about/images/image3.png' %}" class="card-img-top img-fluid" data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
+              <p class="card-text">Home, Bacolod</p>
+            </div>
+              <div class="container"><br></div>
+            <div class="card col-md-4">
+              <img src="{% static 'about/images/image4.jpg' %}" class="card-img-top img-fluid" data-src="holder.js/100px280?theme=thumb" alt="Card image cap" >
+              <p class="card-text">New Government Center, Bacolod</p>
+            </div>
+            <div class="card col-md-4">
+              <img src="{% static 'about/images/image5.jpg' %}" class="card-img-top img-fluid" data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
+              <p class="card-text">Talamban, Cebu City</p>
+            </div>
+            <div class="card col-md-4">
+              <img src="{% static 'about/images/image6.jpg' %}" class="card-img-top img-fluid" data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
+              <p class="card-text">McDonalds Sincang, Bacolod City</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</main>
+<br>
+<br>
+{% endblock %}}
